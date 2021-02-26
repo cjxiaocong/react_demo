@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import XcButton from "./components/xc-button";
+import Default from "./layouts/default/default";
+import './plugins/axios'
 
 ReactDOM.render(
-    <XcButton />,
+    <Default/>,
   document.getElementById('root')
 );
